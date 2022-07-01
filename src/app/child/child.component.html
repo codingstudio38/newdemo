@@ -1,0 +1,5 @@
+<h2>child works!</h2>
+<h3>This is perent data :: {{pdata}}</h3>
+
+<input placeholder="this is child box" type="text" #child>
+<button (click)="getChildDataEvent.emit(child.value)">Updata Child Data</button>
